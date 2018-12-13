@@ -1,0 +1,25 @@
+{
+  "name": "[name]",
+  "version": "0.0.0",
+  "license": "MIT",
+  "private": true,
+  "chenv": {
+    "items": {
+      "this": {
+        "src": "src",
+        "id": ""
+      }
+    }
+  },
+  "scripts": {
+    "assets": "chin -c chin.config.assets.js",
+    "icons": "chin -c chin.config.icons.js",
+    "upload": "chenv upload -a this"
+  },
+  "devDependencies": {
+    "chenv": "^1.2.3",
+    "chin": "^3.1.3",
+    "chin-plugin-compose": "^0.0.4",
+    "chin-plugin-inkscape": "^0.0.7"
+  }
+}
